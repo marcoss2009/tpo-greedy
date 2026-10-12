@@ -34,7 +34,7 @@ def main():
             print("Tamaño de celda: ", datos_mapa["tamano_celda_metros"], " m")
 
             # Generamos las instrucciones para Ottoman
-            instrucciones = ottoman.generarInstrucciones(movimientos, datos_mapa["orientacion_inicial"], datos_mapa["tamano_celda_metros"])
+            instrucciones = ottoman.generarInstrucciones(movimientos, datos_mapa["orientacion_inicial"], datos_mapa["tamano_celda_metros"], mapa)
             print(" Instrucciones: ", " -> ".join(instrucciones))
 
             print(" Resultados del algoritmo y mapa del recorrido ".center(80,'-'))
