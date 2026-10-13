@@ -1,0 +1,34 @@
+-------------------------- Carga de mapa - TP Greedy ---------------------------
+Ingrese el nombre del mapa a cargar: mapa2
+------------------------- Mapa 2 - Solución no óptima --------------------------
+--------------------------- Gráfico de mapa inicial ----------------------------
+    0 1 2 3 4 5 6
+ 0  I * * * * * #
+ 1  # * * * * * *
+ 2  * * X * * * *
+ 3  * * * * * * *
+ 4  * * * * * * *
+ 5  * # # * * # #
+ 6  # * # * * * D
+------------------------------- Algoritmo Greedy -------------------------------
+Ruta:  (0,0) -> (0,1) -> (0,2) -> (0,3) -> (0,4) -> (0,5) -> (1,5) -> (1,6) -> (2,6) -> (3,6) -> (4,6) -> (4,5) -> (3,5) -> (2,5) -> (2,4) -> (3,4) -> (4,4) 
+-> (5,4) -> (6,4) -> (6,5) -> (6,6)
+Orientación inicial:  ESTE
+Tamaño de celda:  0.5  m
+Script para Unitree generado en: /Users/marcosmunoz/Desktop/tp/code/unitree/mapa2_g1.py
+ Instrucciones:  AVANZAR 0,50 m -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 0,50 m -> GIRAR 
+IZQUIERDA 90° -> AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 0,50 m -> GIRAR 
+DERECHA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR IZQUIERDA 90° -> AVANZAR 0,50 m -> GIRAR IZQUIERDA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> 
+AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR IZQUIERDA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m
+---------------- Resultados del algoritmo y mapa del recorrido -----------------
+Fin del algoritmo:  DESTINO_ALCANZADO - El robot llegó a la celda destino.
+Número de pasos:  20
+Referencias: I = inicio | D = destino | F = posición final | # = obstáculo | X = zona prohibida | * = libre | ^ > v < = recorrido
+    0 1 2 3 4 5 6
+ 0  I > > > > v #
+ 1  # * * * * > v
+ 2  * * X * v < v
+ 3  * * * * v ^ v
+ 4  * * * * v ^ <
+ 5  * # # * v # #
+ 6  # * # * > > D

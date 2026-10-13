@@ -1,0 +1,27 @@
+-------------------------- Carga de mapa - TP Greedy ---------------------------
+Ingrese el nombre del mapa a cargar: mapa1
+-------------------------- Mapa 1 - Solución directa ---------------------------
+--------------------------- Gráfico de mapa inicial ----------------------------
+    0 1 2 3 4
+ 0  I * * # *
+ 1  # # * # *
+ 2  * * * * *
+ 3  * X # # *
+ 4  * * * * D
+------------------------------- Algoritmo Greedy -------------------------------
+Ruta:  (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2) -> (2,3) -> (2,4) -> (3,4) -> (4,4)
+Orientación inicial:  ESTE
+Tamaño de celda:  0.5  m
+Script para Unitree generado en: /Users/marcosmunoz/Desktop/tp/code/unitree/mapa1_g1.py
+ Instrucciones:  AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR IZQUIERDA 90° -> AVANZAR 0,50 m -> 
+AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m
+---------------- Resultados del algoritmo y mapa del recorrido -----------------
+Fin del algoritmo:  DESTINO_ALCANZADO - El robot llegó a la celda destino.
+Número de pasos:  8
+Referencias: I = inicio | D = destino | F = posición final | # = obstáculo | X = zona prohibida | * = libre | ^ > v < = recorrido
+    0 1 2 3 4
+ 0  I > v # *
+ 1  # # v # *
+ 2  * * > > v
+ 3  * X # # v
+ 4  * * * * D

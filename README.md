@@ -10,6 +10,8 @@ Profesor: Ferrare, Rodrigo Mariano
 |Dumañski, Melina|1135912|
 |Muñoz, Marcos|1196001|
 
+URL del repositorio: https://github.com/marcoss2009/tpo-greedy
+
 ## Objetivo del trabajo
 Implementar en Python un planificador de movimientos para el robot Unitree utilizando una estrategia greedy. El objetivo es observar cómo una decisión localmente conveniente puede producir una buena ruta, una ruta no óptima o incluso un bloqueo aunque el mapa posea solución.
 
@@ -17,6 +19,13 @@ Implementar en Python un planificador de movimientos para el robot Unitree utili
 El proyecto debe inicializarse desde el archivo `tp_greedy_munoz.py`.
 
     $ python3 tp_greedy_munoz.py
+
+## Árbol de directorios
+    .
+    └── capturas Directorio donde se encuentan las capturas de pantalla con los resultados de cada mapa.
+    └── logs Directorio donde almacenamos los logs de los resultados de cada mapa.
+    └── mapas Directorio de almacenamiento de los mapas.
+    └── unitree Directorio de almacenamiento de scripts para correr los mapas en el simulador de Unitree.
 
 ## Ejecución en robot de Unitree
 Si bien el TPO no lo pide explícitamente en los puntos de entrega hemos decidido crear un nuevo módulo llamado `unitree.py` para crear un script ya listo para correr en el simulador de Unitree proporcionado en la primera página del TPO. Para esto, hemos tomado como base la API de ejemplo documentada en el archivo `g1_student_api.py` que hemos clonado al directorio `unitee/` donde tambien almacenamos los scripts generados cada vez que corremos un mapa.
