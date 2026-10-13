@@ -1,0 +1,33 @@
+-------------------------- Carga de mapa - TP Greedy ---------------------------
+Ingrese el nombre del mapa a cargar: mapa3
+---------------------- Mapa 3 - Fracaso de la estrategia -----------------------
+--------------------------- Gráfico de mapa inicial ----------------------------
+    0 1 2 3 4 5 6
+ 0  I * * # X * *
+ 1  * * * # # * *
+ 2  * * * # # # *
+ 3  * * * # * * *
+ 4  * * X * * * *
+ 5  * * # * # * *
+ 6  # * * * * # D
+------------------------------- Algoritmo Greedy -------------------------------
+Ruta:  (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2) -> (3,2) -> (3,1) -> (4,1) -> (5,1) -> (6,1) -> (6,2) -> (6,3) -> (6,4)
+Orientación inicial:  ESTE
+Tamaño de celda:  0.5  m
+Script para Unitree generado en: /Users/marcosmunoz/Desktop/tp/code/unitree/mapa3_g1.py
+ Instrucciones:  AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR DERECHA 90° -> AVANZAR 
+0,50 m -> GIRAR IZQUIERDA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> GIRAR IZQUIERDA 90° -> AVANZAR 0,50 m -> AVANZAR 0,50 m -> AVANZAR 
+0,50 m
+---------------- Resultados del algoritmo y mapa del recorrido -----------------
+Fin del algoritmo:  BLOQUEADO - No existen candidatos válidos para continuar.
+Número de pasos:  12
+Referencias: I = inicio | D = destino | F = posición final | # = obstáculo | X = zona prohibida | * = libre | ^ > v < = recorrido
+    0 1 2 3 4 5 6
+ 0  I > v # X * *
+ 1  * * v # # * *
+ 2  * * v # # # *
+ 3  * v < # * * *
+ 4  * v X * * * *
+ 5  * v # * # * *
+ 6  # > > > F # D
+ ATENCIÓN: el robot no llega al destino, se queda en (6, 4)
